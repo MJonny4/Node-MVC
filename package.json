@@ -1,0 +1,40 @@
+{
+    "name": "1.-node",
+    "version": "1.0.0",
+    "description": "Node.JS Tutorial",
+    "main": "app.js",
+    "scripts": {
+        "test": "mocha",
+        "start": "node app.js",
+        "start:dev": "nodemon app.js"
+    },
+    "author": "Ion Munteanu",
+    "license": "ISC",
+    "devDependencies": {
+        "chai": "^4.3.8",
+        "ejs": "^3.1.9",
+        "mocha": "^10.2.0",
+        "nodemon": "^3.0.1",
+        "typescript": "^5.1.6"
+    },
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "compression": "^1.7.4",
+        "connect-flash": "^0.1.1",
+        "connect-mongodb-session": "^3.1.1",
+        "csurf": "^1.11.0",
+        "express": "^4.18.2",
+        "express-session": "^1.17.3",
+        "express-validator": "^7.0.1",
+        "helmet": "^7.0.0",
+        "mongodb": "^5.8.0",
+        "mongoose": "^7.4.4",
+        "morgan": "^1.10.0",
+        "multer": "^1.4.5-lts.1",
+        "mysql2": "^3.6.0",
+        "nodemailer": "^6.9.4",
+        "pdfkit": "^0.13.0",
+        "sequelize": "^6.32.1",
+        "stripe": "^8.222.0"
+    }
+}
