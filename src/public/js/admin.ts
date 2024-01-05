@@ -1,4 +1,4 @@
-const deleteProduct = (btn) => {
+const deleteProduct = (btn: { parentNode: { querySelector: (arg0: string) => { (): any; new(): any; value: any; }; }; closest: (arg0: string) => any; }) => {
     const prodId = btn.parentNode.querySelector("[name=productId]").value;
     const csrf = btn.parentNode.querySelector("[name=_csrf]").value;
 

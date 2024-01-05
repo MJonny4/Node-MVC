@@ -4,3 +4,6 @@ server.cert
 server.key
 data/invoices
 node_modules
+package-lock.json
+.gitignore
+.env
