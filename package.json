@@ -24,7 +24,7 @@
         "@types/express-session": "^1.17.10",
         "@types/morgan": "^1.9.9",
         "@types/multer": "^1.4.11",
-        "@types/node": "^20.10.6",
+        "@types/node": "^20.10.8",
         "@types/pdfkit": "^0.13.3",
         "chai": "^5.0.0",
         "ejs": "^3.1.9",
